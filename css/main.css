@@ -43,6 +43,7 @@ header {
 
 #column-3 {
   background: #lightslategrey;
+  width: 33.33%;
 }
 
 
@@ -65,14 +66,17 @@ footer {
 
   #column-1 {
     background-color: blue;
+    max-width: 50%;
   }
 
   #column-2 {
     background-color: red;
+    max-width: 50%;
   }
 
   #column-3 {
     background-color: yellow;
+    max-width: 50%;
   }
 
   footer {
@@ -98,10 +102,13 @@ footer {
 
   #column-3 {
     background-color: gold;
+    width: 33.333%;
   }
 
   footer {
     background-color: silver;
   }
 
+.col-3 {
+  width: 33.33%;
 }
